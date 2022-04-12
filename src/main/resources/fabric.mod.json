@@ -1,29 +1,31 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "rpf",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Roly Poly Framework",
+  "description": "Roly Poly Roly Poly Roly Poly Roly Poly Roly Poly",
   "authors": [
-    "Me!"
+    "Immortal Devs - parent organization",
+    "Azazelthedemonlord - local nsfw artist"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/devs-immortal/Roly-Poly-Framework",
+    "sources": "https://github.com/devs-immortal/Roly-Poly-Framework",
+    "issues": "https://github.com/devs-immortal/Roly-Poly-Framework/issues"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/rpf/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.id.rpf.RPF"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "rpf.mixins.json"
   ],
 
   "depends": {
@@ -32,7 +34,14 @@
     "minecraft": "1.18.x",
     "java": ">=17"
   },
-  "suggests": {
-    "another-mod": "*"
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/vAa35wQ2ZP"
+      },
+      "badges": [
+        "library"
+      ]
+    }
   }
 }
