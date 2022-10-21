@@ -7,7 +7,8 @@
   "description": "Roly Poly Roly Poly Roly Poly Roly Poly Roly Poly",
   "authors": [
     "Immortal Devs - parent organization",
-    "Azazelthedemonlord - local nsfw artist"
+    "Azazelthedemonlord - local nsfw artist",
+    "Jack Papel - Lead Developer"
   ],
   "contact": {
     "homepage": "https://github.com/devs-immortal/Roly-Poly-Framework",
@@ -21,7 +22,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.id.rpf.RPF"
+      "net.id.rpf.RolyPolyFramework"
     ]
   },
   "mixins": [
