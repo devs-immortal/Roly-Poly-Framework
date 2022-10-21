@@ -3,6 +3,7 @@ package net.id.rpf;
 import com.mojang.logging.LogUtils;
 import net.fabricmc.api.ModInitializer;
 import net.id.rpf.item.RPFItems;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 
 public class RolyPolyFramework implements ModInitializer {
@@ -17,5 +18,9 @@ public class RolyPolyFramework implements ModInitializer {
 
 		LOG.info("Roly Poly Framework has successfully initialized!");
 		LOG.info("Go mlem Azazelthedemonlord as thanks");
+	}
+
+	public static Identifier locate(String path) {
+		return new Identifier(MODID, path);
 	}
 }
